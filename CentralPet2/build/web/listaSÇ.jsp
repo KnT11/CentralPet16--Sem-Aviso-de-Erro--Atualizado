@@ -48,24 +48,24 @@
                     for(Animal an : andao.listAll()) {
                 %>
                 <tr>
-                    <td><%= an.getIdAnimal() %></td>
+                    <td><%= an.getId() %></td>
                     <td><%= an.getCnpj() %></td>
-                    <td><%= an.getCelular %></td>
+                    <td><%= an.getCelular ()%></td>
                     <td><%= an.getNomefantasia() %></td>
-                    <td><%= an.getCidade %></td>
-                    <td><%= an.getBairro %></td>
-                    <td><%= an.getRua %></td>
-                    <td><%= an.getN%></td>
-                    <td><%= an.getCep %></td>
-                    <td><%= an.getEmail %></td>
-                    <td><%= an.getRaça %></td>
-                    <td><%= an.getSexo %></td>
-                    <td><%= an.getPorte %></td>
-                    <td><%= an.getPelagem %></td>
-                    <td><%= an.getPeso %></td>
-                    <td><%= an.getTemperamento %></td>
-                    <td><%= an.getSaude %></td>
-                    <td><%= an.getPodeMorarEm %></td>
+                    <td><%= an.getCidade ()%></td>
+                    <td><%= an.getBairro ()%></td>
+                    <td><%= an.getRua ()%></td>
+                    <td><%= an.getN ()%></td>
+                    <td><%= an.getCep ()%></td>
+                    <td><%= an.getEmail ()%></td>
+                    <td><%= an.getRaça ()%></td>
+                    <td><%= an.getSexo ()%></td>
+                    <td><%= an.getPorte ()%></td>
+                    <td><%= an.getPelagem ()%></td>
+                    <td><%= an.getPeso ()%></td>
+                    <td><%= an.getTemperamento ()%></td>
+                    <td><%= an.getSaude ()%></td>
+                    <td><%= an.getPme ()%></td>
                     <td>
                         <a href="AnimalUpdate?id=">EDITAR</a>
                     </td>
